@@ -17,6 +17,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['pulserecord-production.up.railway.app', '127.0.0.1', 'localhost']
 
+CSRF_TRUSTED_ORIGINS = ['https://pulserecord-production.up.railway.app']
 
 # Application definition
 
