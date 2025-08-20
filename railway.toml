@@ -3,5 +3,5 @@ builder = "NIXPACKS"
 
 
 [deploy]
-startCommand = "gunicorn DjangoEHR.DjangoEHR.wsgi:application"
+startCommand = "gunicorn DjangoEHR.wsgi:application --chdir DjangoEHR"
 
