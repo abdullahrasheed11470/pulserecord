@@ -1,0 +1,18 @@
+# Byte-compiled / cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Logs
+*.log
+
+# Environment variables
+.env
+
+# Static and media files
+/staticfiles/
+/media/
+
+# OS-specific files
+*.DS_Store
+Thumbs.db
